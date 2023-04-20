@@ -11,16 +11,25 @@ class List extends React.Component
         this.lref = React.createRef();
     }
     render(){   
-        
+
         return (
             <>
-
+            
+            <input type="text" onChange={this.add}></input>
+            
             <ul>
-                <input type="text"></input>
+            
+                {this.list.map((item)=>(<li>{item}</li>))}
             </ul>
             
             </>
         )
+    }
+    add = (event) => {
+        this.curr_item = event.target.value;
+        this.list.push(this.curr_item);
+        this.setState({myList:this.list});
+
     }
 }
 

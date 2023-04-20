@@ -1,6 +1,6 @@
 import React from "react";
-
-var Header_function = () => 
+import Car from './Car';
+function Header_Method(props) 
 {
         return (
             <div>
@@ -8,11 +8,14 @@ var Header_function = () =>
                 <span style={{'justify-content' : 'right','position' : 'fixed'}}>The date is {Date(Date.now())}</span>
                 <p>
                     <br></br>
-                    my argument for property is 
+                    my argument for property is <b> {props.property} </b>
+                    <br></br>
+                    <Car/>
                 </p>
             </div>
         )
 }
 
-export default Header_function;
+export default Header_Method; 
 
+//(like a simple method in JS)

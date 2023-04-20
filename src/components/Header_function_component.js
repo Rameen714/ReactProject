@@ -1,6 +1,6 @@
 import React from "react";
-import Car from './Car';
-function Header_function_component(props) 
+
+var Header_function_component = () => 
 {
         return (
             <div>
@@ -8,13 +8,11 @@ function Header_function_component(props)
                 <span style={{'justify-content' : 'right','position' : 'fixed'}}>The date is {Date(Date.now())}</span>
                 <p>
                     <br></br>
-                    my argument for property is <b> {props.property} </b>
-                    <br></br>
-                    <Car/>
+                    my argument for property is 
                 </p>
             </div>
         )
 }
 
-export default Header_function_component; 
+export default Header_function_component;
 
