@@ -1,15 +1,22 @@
 import './App.css';
+// how to add comment within this return brackets below?
 
 function App() {
   return (
     //everything should be inside this div App
     <div className="App">
-      
-      <p>helio app here</p>
-
+        <p>helio app_parctise here</p>
+        <Header_class_component property = "class component"/>
+        <List />
     </div>
   );
 }
+/**
+ *  <Garage/>
+    <Car />
+    <Football /> <Header_function_component property = "function component"/>
+    <Header_function />
+ */
 
 export default App;
 
