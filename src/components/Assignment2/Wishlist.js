@@ -1,5 +1,6 @@
 import React from "react";
 import { useState } from "react";
+import "./style.css";
 
 const Wishlist = () => {
     const [list,setItem] = useState([])
@@ -8,7 +9,7 @@ const Wishlist = () => {
     
 
     const addItem = () => {
-        if(nText.trim !== "")
+        if(nText.length !== 0)
         {
             //high
             if(nPriority == "3")
@@ -44,30 +45,57 @@ const Wishlist = () => {
     }
 
     return (
-        <div>
+        <div class="body">
+        <div class="box">
             <h1>Wishlist</h1>
-            <input type="text" value={nText} onChange={(e) => setNText(e.target.value)} />
-            <select value={nPriority} onChange={(e) => setNPriority(e.target.value)}>
-                <option value="1" selected>Low</option>
-                <option value="2" >Medium</option>
-                <option value="3" >High</option>
-            </select>
-            <button onClick={addItem}>Add</button>
-            <ul>
-                {list.map((item,index) => (
-                    <li key={index}>
-                        {item.text}
-                        <button onClick={() => removeItem(index)}>Remove</button>
-                        <select value={item.priority} onChange={(e) =>setNPriority(e.target.value)}>
+            <table style={{justifyContent:"center","padding-left": "200px"}}>
+                <tr>
+                    <th>Item</th>
+                    <th>Priority</th>
+                    <th>Remove</th>
+                </tr>
+            
+                <tr>
+                    <td>
+                        <input type="text" value={nText} onChange={(e) => setNText(e.target.value)} />
+                    </td>
+                    <td>
+                        <select class="btn" value={nPriority} onChange={(e) => setNPriority(e.target.value)}>
                             <option value="1" selected>Low</option>
                             <option value="2" >Medium</option>
                             <option value="3" >High</option>
                         </select>
-                        <button onClick={() => moveToTop(index)}>MoveTo Top</button>
-                    </li>
-                ))}
-            </ul>
+                    </td>
+                    <td>
+                        <button class="btn" onClick={addItem}>Add</button>
+                    </td>
+                </tr>
             
+                {list.map((item,index) => (
+                    
+                        <tr>
+                            <td>
+                                <span style={{"padding-right":"5px","padding-top":"0px","padding-bottom":"2px","padding-left":"5px", "border": "1px solid lightblue"}}>{item.text}</span>
+                            </td>
+                            <td>
+                                <select class="btn" value={item.nPriority} onChange={(e) =>setNPriority(e.target.value)}>
+                                    <option value="1" selected>Low</option>
+                                    <option value="2" >Medium</option>
+                                    <option value="3" >High</option>
+                                </select>
+                            </td>
+                            <td>
+                                <button class="btn" onClick={() => removeItem(index)}>Remove</button>
+                                <button class="btn" onClick={() => moveToTop(index)}>MoveTo Top</button>
+                            </td>
+                            <br></br>
+                            <br></br>
+                        </tr>
+                    
+                ))}
+            
+            </table>
+        </div>
         </div>
     )
 

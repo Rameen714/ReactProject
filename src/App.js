@@ -5,10 +5,10 @@ import Wishlist from './components/Assignment2/Wishlist';
 function App() {
   return (
     //everything should be inside this div App
-    <div className="App">
+    <div className="App" >
       
       {/* <p>helio app here</p> */}
-      {/* <Wishlist /> */}
+      {/* <Wishlist />  */}
       <GitHubProfile />
     </div>
   );
