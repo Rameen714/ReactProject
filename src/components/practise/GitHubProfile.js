@@ -1,13 +1,12 @@
 import React, { useState } from "react";
 import { useFetcher } from "react-router-dom";
-import List from "./List";
+import List from "../HomeAssignment/List";
 
 const GitHubProfile = ({ user }) => {
 
     const [GitHubData,setData] = useState([]);
     const [GitHubUser,setUser]  = useState("");
 
-    
     
     const fetchData = () =>{
         return fetch(`https://api.github.com/search/users?q=${GitHubUser}`)
@@ -30,3 +29,5 @@ const GitHubProfile = ({ user }) => {
 }
 
 export default GitHubProfile;
+
+/*assignment*/

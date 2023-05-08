@@ -1,6 +1,6 @@
 import './App.css';
-import GitHubProfile from './components/Assignment2/GitHubProfile';
-import Wishlist from './components/Assignment2/Wishlist';
+import GitHubProfile from './components/practise/GitHubProfile';
+import Wishlist from './components/HomeAssignment/Wishlist';
 
 function App() {
   return (
@@ -8,8 +8,7 @@ function App() {
     <div className="App" >
       
       {/* <p>helio app here</p> */}
-      {/* <Wishlist />  */}
-      <GitHubProfile />
+       <Wishlist />  
     </div>
   );
 }
