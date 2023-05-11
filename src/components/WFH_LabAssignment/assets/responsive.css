@@ -1,0 +1,2470 @@
+/*********************************/
+/*          SCREEN 1024          */
+/*********************************/
+
+@media screen and (min-width: 1024px) {
+    header .header-main.homepage-03 .navigation {
+        display: table !important;
+        margin: auto;
+    }
+
+    header .header-main.homepage-03.header-fixed .navigation {
+        display: block !important;
+        margin: auto;
+        position: relative;
+    }
+}
+
+@media screen and (max-width: 1280px) and (min-width: 1025px) {
+    .best-staff .group-btn-slider .btn-next {
+      right: 3%;
+    }
+  
+    .best-staff .group-btn-slider .btn-prev {
+      left: 3%;
+    }
+  }
+
+@media screen and (max-width: 1024px) {
+    header .header-main .logo .header-logo img {
+        max-width: 140px;
+    }
+
+    .news-content img {
+        width: 100%;
+    }
+
+    .edugate-layout-1 .edugate-content .btn {
+        position: relative;
+        float: right;
+        bottom: 0;
+        right: 0;
+        margin-top: 20px;
+    }
+
+    .best-staff .group-btn-slider .btn-next {
+        right: 3%;
+    }
+
+    .best-staff .group-btn-slider .btn-prev {
+        left: 3%;
+    }
+
+    .navigation {
+        padding-right: 0;
+    }
+
+    .edugate-layout-1 {
+        margin-top: 70px;
+    }
+
+        .edugate-layout-1:first-child {
+            margin-top: 0;
+        }
+
+        .edugate-layout-1 .edugate-image {
+            height: 335px;
+        }
+
+        .edugate-layout-1 .edugate-content {
+            padding-top: 30px;
+        }
+
+    .col-md-9 .edugate-layout-1 .edugate-image {
+        height: auto;
+        top: 30px;
+    }
+
+        .col-md-9 .edugate-layout-1 .edugate-image img {
+            height: auto;
+        }
+
+    .col-md-9 .edugate-layout-1 .edugate-content {
+        padding: 30px;
+    }
+
+    .col-md-9 .edugate-layout-1 button {
+        position: relative;
+        top: auto;
+        right: auto;
+        bottom: auto;
+        float: right;
+        margin-top: 10px;
+    }
+
+    .news-page .news-page-wrapper .edugate-layout-1 {
+        margin-bottom: 70px;
+    }
+
+    .best-staff .container {
+        max-width: 860px;
+    }
+
+    .top-courses .group-btn-top-courses-slider {
+        margin-top: 0;
+    }
+
+    .courses .style-grid .col-style {
+        width: 100%;
+    }
+
+    .btn-list-grid {
+        display: none;
+    }
+
+    .news-page .news-page-wrapper {
+        margin-top: 0;
+    }
+    /******************************/
+    .widget .media .media-right a p {
+        font-size: 13px;
+    }
+
+    .edu-ab .edu-ab-content ul li {
+        width: 25%;
+    }
+
+    .staff-list .container {
+        max-width: 860px;
+    }
+
+    .register-table {
+        padding: 30px 50px;
+    }
+
+        .register-table .register-title {
+            margin-top: 0;
+        }
+    /* Gallery */
+    .gallery-page.gallery-mansonry .grid-item, .gallery-page.gallery-3column .grid-item {
+        width: 283px;
+        height: 210px;
+    }
+
+    .gallery-page.gallery-mansonry .grid-item-height2, .gallery-page.gallery-3column .grid-item-height2 {
+        height: 450px;
+    }
+}
+/*********************************/
+/*          SCREEN 992           */
+/*********************************/
+@media screen and (max-width: 991px) {
+    .col-2 {
+        display: inline-block;
+        margin-bottom: 20px;
+    }
+
+    .method-item {
+        margin-bottom: 15px;
+    }
+
+    .sidebar {
+        margin-top: 70px;
+    }
+}
+/*********************************/
+/*          SCREEN 768           */
+/*********************************/
+@media (min-width: 768px) {
+    .dropdown:hover .edugate-dropdown-menu-1 {
+        display: block;
+    }
+
+        .dropdown:hover .edugate-dropdown-menu-1 li:hover > .edugate-dropdown-menu-2 {
+            display: block;
+        }
+
+    header .header-main .button-cart.button-responsive {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    header .header-main .logo {
+        line-height: 60px;
+    }
+
+        header .header-main .logo .header-logo img {
+            max-width: 150px;
+        }
+
+    header .header-main .navigation .nav-links li .main-menu {
+        line-height: 60px;
+        margin: 0 12px;
+    }
+
+        header .header-main .navigation .nav-links li .main-menu .arrow-open-dropdown {
+            line-height: 60px;
+        }
+
+    header .header-main .navigation .button-search,
+    header .header-main .navigation .button-cart {
+        line-height: 50px;
+        display: none;
+    }
+
+    header .header-main .button-cart.button-responsive .main-menu {
+        font-size: 15px;
+        color: #fff;
+        padding: 8px 15px 9px;
+        border-radius: 5px;
+        margin-top: 25px;
+        background: #2aacff;
+    }
+
+    header .header-main.homepage-03:not(.header-fixed) .nav-search {
+        bottom: -20px;
+    }
+
+    header .header-main .edugate-dropdown-menu-1 {
+        top: 65px;
+    }
+
+    header .header-topbar .group-sign-in {
+        margin-left: 50px;
+    }
+
+    .navigation .mega-menu-content {
+        position: static;
+        padding-left: 0;
+        box-shadow: 0 0 12px rgba(0, 0, 0, 0.175);
+    }
+
+        .navigation .mega-menu-content .mega-content-wrap {
+            padding-left: 15px;
+        }
+
+    .mega-menu-column-box {
+        padding-left: 0;
+    }
+
+    .navigation .mega-menu-content .mega-menu-column {
+        padding: 30px 0 10px;
+    }
+
+        .navigation .mega-menu-content .mega-menu-column > .mega-menu-column-box > .mega-menu-title .sf-with-ul {
+            padding-left: 5px;
+            font-size: 15px;
+        }
+
+    .choose-course .choose-course-wrapper .col-md-4.col-xs-6 {
+        margin-bottom: 70px;
+    }
+
+        .choose-course .choose-course-wrapper .col-md-4.col-xs-6:nth-last-child(-n+3) {
+            margin-bottom: 70px;
+        }
+
+        .choose-course .choose-course-wrapper .col-md-4.col-xs-6:nth-last-child(-n+2) {
+            margin-bottom: 0;
+        }
+
+    .choose-course-2 .choose-course-wrapper .col-md-4.col-xs-6:nth-last-child(-n+3) {
+        margin-bottom: 30px;
+    }
+
+    .choose-course-2 .choose-course-wrapper .col-md-4.col-xs-6:nth-last-child(-n+2) {
+        margin-bottom: 0;
+    }
+
+    .why-choose-us .why-choose-us-wrapper-bottom i {
+        font-size: 30px;
+    }
+
+    .why-choose-us .why-choose-us-wrapper-bottom a,
+    .why-choose-us .why-choose-us-wrapper-bottom p,
+    .why-choose-us .why-choose-us-wrapper-bottom span {
+        padding-left: 10px;
+    }
+
+    .slider-talk-about-us {
+        padding-bottom: 50px;
+    }
+
+        .slider-talk-about-us .peopel-item .peopel-comment {
+            width: 80%;
+            padding: 30px 20px;
+        }
+
+        .slider-talk-about-us .group-btn-slider {
+            position: relative;
+            top: 0;
+        }
+
+    .edugate-layout-1 .edugate-image {
+        height: auto;
+        top: 30px;
+    }
+
+        .edugate-layout-1 .edugate-image img {
+            height: auto;
+        }
+
+    .edugate-layout-1 .edugate-content {
+        padding: 30px;
+    }
+
+        .edugate-layout-1 .edugate-content .title {
+            font-size: 24px;
+            max-height: 68px;
+        }
+
+        .edugate-layout-1 .edugate-content .description {
+            height: 72px;
+        }
+
+        .edugate-layout-1 .edugate-content button.btn {
+            position: relative;
+            top: auto;
+            right: auto;
+            bottom: auto;
+            float: right;
+            margin-top: 10px;
+        }
+
+    .group-btn-slider .btn-prev,
+    .group-btn-slider .btn-next {
+        top: auto;
+        bottom: 20px;
+        width: 40px;
+        height: 40px;
+        line-height: 32px;
+    }
+
+    .group-btn-slider .btn-prev {
+        left: 50%;
+        margin-left: -50px;
+    }
+
+    .group-btn-slider .btn-next {
+        right: 50%;
+        margin-right: -50px;
+    }
+
+    .best-staff {
+        padding-bottom: 60px;
+    }
+
+        .best-staff .group-btn-slider {
+            position: relative;
+            top: 70px;
+        }
+
+            .best-staff .group-btn-slider .btn-prev,
+            .best-staff .group-btn-slider .btn-next {
+                top: auto;
+                bottom: 20px;
+                width: 40px;
+                height: 40px;
+                line-height: 32px;
+            }
+
+            .best-staff .group-btn-slider .btn-prev {
+                left: 50%;
+                margin-left: -50px;
+            }
+
+            .best-staff .group-btn-slider .btn-next {
+                right: 50%;
+                margin-right: -50px;
+            }
+
+    .pricing {
+        position: relative;
+        padding-bottom: 50px;
+    }
+
+        .pricing .group-title-index {
+            margin-bottom: 30px;
+        }
+
+        .pricing .pricing-wrapper .col-sm-4 {
+            width: 100%;
+        }
+
+        .pricing .pricing-wrapper .pricing-widget {
+            padding-top: 30px;
+            padding-bottom: 40px;
+        }
+
+        .pricing .group-btn-slider {
+            display: block;
+            position: relative;
+            top: 90px;
+        }
+
+    .homepage-03 .info-text2 {
+        display: none;
+    }
+
+    .homepage-03 .info-text1 {
+        float: left;
+    }
+
+    .homepage-03 .info-text3 {
+        float: right;
+    }
+
+    header .header-main.homepage-03 .logo {
+        display: block;
+        float: left;
+        line-height: 50px;
+        width: 125px;
+    }
+
+    header .header-main.homepage-03 .navigation {
+        float: right;
+    }
+
+    .choose-course-3 .item-course {
+        width: 50%;
+    }
+
+        .choose-course-3 .item-course:nth-last-child(-n+3) {
+            border-bottom: none;
+        }
+
+        .choose-course-3 .item-course:nth-child(3n-2) {
+            border-left: none;
+        }
+
+        .choose-course-3 .item-course:nth-last-child(-n+2) {
+            border-bottom: 1px solid #e1e1e1;
+        }
+
+    .choose-course-3 .item-course-wrapper .icon-course {
+        width: 90px;
+    }
+
+    .top-content .result-output {
+        margin-bottom: 20px;
+    }
+
+    .search-input .form-submit p i {
+        display: none;
+    }
+    /*********************/
+    /*   PAGE CATRGORY   */
+    /*********************/
+    .customs-row {
+        display: inline;
+    }
+    /*********************/
+    /*   course detail   */
+    /*********************/
+    .course-video {
+        margin-bottom: 30px;
+    }
+
+    .table-body {
+        height: 500px;
+    }
+
+    blockquote {
+        margin: 25px 10% 20px 10%;
+    }
+
+    ul.tag-widget {
+        margin: 20px 0 0 0;
+    }
+    /********************************/
+    .footer-top .footer-top-wrapper {
+        padding: 30px 0px;
+    }
+
+        .footer-top .footer-top-wrapper .footer-top-left {
+            display: table-row;
+        }
+
+            .footer-top .footer-top-wrapper .footer-top-left .footer-top-focus {
+                line-height: 1;
+                margin-bottom: 5px;
+            }
+
+            .footer-top .footer-top-wrapper .footer-top-left .footer-top-text {
+                margin-bottom: 20px;
+            }
+
+        .footer-top .footer-top-wrapper .footer-top-right {
+            display: table-row;
+            text-align: left;
+        }
+
+    .footer-main .footer-main-wrapper {
+        padding: 70px 0 10px 0;
+    }
+
+    .footer-main .title-widget {
+        padding-bottom: 25px;
+    }
+
+    .nav-subscribe-wrapper .nav-subscribe-left .subscribe-text {
+        font-size: 25px;
+    }
+
+    .intro-edu {
+        padding-bottom: 100px;
+    }
+
+    .edu-ab .edu-ab-content ul li .circle-icon:after {
+        width: 50%;
+    }
+
+    .edu-ab .edu-ab-content ul li .circle-icon:before {
+        width: 50%;
+    }
+
+    .edu-feature .col-md-6:first-child {
+        margin-bottom: 50px;
+    }
+
+    .edu-feature img {
+        margin: 0 auto;
+        display: block;
+    }
+
+    .edugate-dropdown-menu-1 > li > a,
+    .edugate-dropdown-menu-1 > li span,
+    .edugate-dropdown-menu-1 > li p {
+        line-height: 40px !important;
+    }
+
+    .slider-talk-about-us.style-2 .group-btn-slider {
+        display: block;
+    }
+
+        .slider-talk-about-us.style-2 .group-btn-slider .btn-next,
+        .slider-talk-about-us.style-2 .group-btn-slider .btn-prev {
+            background-color: transparent;
+            border-color: rgba(0, 0, 0, 0.5);
+            color: rgba(0, 0, 0, 0.5);
+            box-shadow: none;
+            background-image: none;
+        }
+
+    .vc_row .sw-col_sm_12 {
+        width: 100%;
+    }
+
+    .vc_row .sw-col_sm_6 {
+        width: 50%;
+    }
+
+    .footer-area:nth-child(3) {
+        clear: left;
+    }
+    /* Header Fixed when admin bar is on */
+    .adminbar-on header .header-main.homepage-03.header-fixed,
+    .adminbar-on header .header-main.homepage-02.header-fixed {
+        top: 46px;
+    }
+
+    header .header-main.homepage-03 .navigation .button-search {
+        line-height: 40px;
+        display: none !important;
+    }
+
+    header .header-main.homepage-03 .navigation .nav-links {
+        height: 50px;
+    }
+
+    header .header-main.homepage-03.header-fixed .navigation .nav-links {
+        float: left;
+    }
+
+    .search-input .form-select, .search-input .form-submit {
+        width: 13%;
+    }
+
+    .search-input .form-select, .search-input .form-input, .search-input .form-submit {
+        margin-right: 10px;
+        padding-left: 10px;
+    }
+
+    .search-input .form-submit {
+        width: 15%;
+        margin-right: 0;
+        padding-left: 5px;
+    }
+
+    .edugate-layout-1 .edugate-content .btn {
+        position: relative;
+        float: right;
+        bottom: 0;
+        right: 0;
+        margin-top: 20px;
+    }
+
+    .choose-course-2 .item-course {
+        padding: 70px 10px;
+    }
+
+    .teacher-skill {
+    }
+
+        .teacher-skill .teacher-skill-wrapper .title {
+            margin-bottom: 29px;
+        }
+
+        .teacher-skill .teacher-skill-wrapper .row .skill-level {
+            margin-bottom: 20px;
+            padding: 0 30px;
+        }
+
+    .teacher-course .teacher-course-wrapper .table-body {
+        height: 100%;
+    }
+
+    /* Gallery */
+    .gallery-page.gallery-mansonry .grid-item, .gallery-page.gallery-3column .grid-item {
+        width: 45.5%;
+        height: 260px;
+    }
+
+    .gallery-page.gallery-mansonry .grid-item-height2, .gallery-page.gallery-3column .grid-item-height2 {
+        height: 550px;
+    }
+    /* FAQ */
+    .accordion .panel-heading .panel-title a {
+        text-overflow: ellipsis;
+        white-space: nowrap;
+        overflow: hidden;
+        width: 100%;
+        padding-right: 70px;
+    }
+}
+/*********************************/
+/*          SCREEN 767           */
+/*********************************/
+@media screen and (max-width: 767px) {
+    header .header-main .logo {
+        line-height: 60px;
+    }
+
+        header .header-main .logo .header-logo img {
+            width: 150px;
+        }
+
+    header .header-main.header-fixed .logo {
+        line-height: 40px;
+    }
+
+        header .header-main.header-fixed .logo .header-logo img {
+            width: 125px;
+        }
+
+    header .header-main.header-fixed .edugate-navbar {
+        margin: 6px 0 0 0;
+    }
+
+    header .header-main.header-fixed .navigation {
+        top: 45px;
+        height: 70vh;
+        overflow-y: scroll;
+    }
+
+    header .header-main.homepage-03 .logo {
+        width: 150px;
+        line-height: 60px;
+    }
+
+    header .header-main.homepage-03 .navigation .nav-links {
+        width: 100%;
+        text-align: left;
+        margin-bottom: 0;
+        float: none !important;
+    }
+
+    header .header-main.homepage-03.header-fixed .logo {
+        line-height: 40px;
+    }
+
+        header .header-main.homepage-03.header-fixed .logo .header-logo img {
+            width: 125px;
+        }
+
+    header .header-main.homepage-03.header-fixed .edugate-navbar {
+        margin: 6px 0 0 0;
+    }
+
+    header .header-main.homepage-03.header-fixed .navigation {
+        top: 45px;
+    }
+
+        header .header-main.homepage-03.header-fixed .navigation .nav-links li .main-menu {
+            line-height: 50px;
+            padding: 0 13px 0 10px;
+            margin: 0;
+        }
+
+        header .header-main.homepage-03.header-fixed .navigation .nav-links li.active .main-menu {
+            border-bottom: none;
+            background-color: #fafafa;
+        }
+
+        header .header-main.homepage-03.header-fixed .navigation .nav-links li:hover .main-menu {
+            background-color: transparent;
+        }
+
+            header .header-main.homepage-03.header-fixed .navigation .nav-links li:hover .main-menu:after {
+                height: 0;
+            }
+
+    header .header-main .navigation {
+        width: 50%;
+        min-width: 290px;
+        text-align: left;
+        position: absolute;
+        right: 0;
+        background-color: #fff;
+        top: 65px;
+        box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+    }
+
+        header .header-main .navigation .nav-links li .main-menu {
+            line-height: 50px;
+            padding: 0 15px;
+            margin: 0;
+            font-size: 16px;
+        }
+
+        header .header-main .navigation .nav-links li.active .main-menu {
+            border-bottom: none;
+            background-color: #fafafa;
+        }
+
+        header .header-main .navigation .nav-links li:hover .main-menu {
+            background-color: transparent;
+        }
+
+            header .header-main .navigation .nav-links li:hover .main-menu:after {
+                height: 0;
+            }
+
+        header .header-main .navigation .nav-links li .main-menu .arrow-open-dropdown,
+        header .header-main .navigation .nav-links li .link-page .arrow-open-dropdown {
+            display: inline-block;
+            line-height: 40px;
+        }
+
+    header .header-main .navbar-header {
+        display: inline-block;
+        width: 100%;
+    }
+
+    header .header-main .edugate-dropdown-menu-1 {
+        padding: 0;
+        text-align: left;
+        margin: 0 20px 0 20px;
+        border-bottom: 2px solid #2aacff !important;
+    }
+
+        header .header-main .edugate-dropdown-menu-1 > li > .link-page {
+            line-height: 40px !important;
+            margin: 0;
+            padding-right: 30px;
+            font-size: 14px;
+        }
+
+        header .header-main .edugate-dropdown-menu-1 > li:hover {
+            background-color: #fff;
+        }
+
+        header .header-main .edugate-dropdown-menu-1 li:last-child > a {
+            border-bottom: 1px solid #2aacff;
+        }
+
+    header .header-main .edugate-dropdown-menu-2 {
+        background-color: #fff;
+        border-bottom: none;
+    }
+
+        header .header-main .edugate-dropdown-menu-2 > li > .link-page {
+            line-height: 40px;
+            margin: 0;
+            text-align: left;
+            padding-right: 30px;
+            font-size: 14px;
+        }
+
+        header .header-main .edugate-dropdown-menu-2 li:last-child > a {
+            border-bottom: 1px solid #2aacff;
+        }
+
+    header .header-topbar .socials {
+        display: none;
+    }
+
+    header .dropdown-menu > li > a:hover,
+    header .dropdown-menu > li > a:focus {
+        background-color: #fff;
+    }
+
+    .navigation {
+        padding-right: 15px;
+    }
+
+    .button-search {
+        opacity: 0;
+    }
+
+    .nav-search {
+        display: block !important;
+        box-shadow: none;
+        padding: 0;
+        width: 100%;
+        height: 70px;
+        position: relative;
+        right: 0;
+        bottom: 0;
+    }
+
+    .navigation .nav-search,
+    .header-main.header-fixed .navigation .nav-search {
+        top: 0;
+        margin-top: 20px;
+    }
+
+    .nav-search:after {
+        position: absolute;
+        content: '';
+        width: 100%;
+        height: 2px;
+        background-color: #cccccc;
+        left: 0;
+        right: 0;
+        top: 0;
+    }
+
+    .header-main.homepage-03 .nav-search form {
+        top: 0;
+    }
+
+    .nav-search form input[type='text'] {
+        width: 80%;
+        padding: 0 5px 0 15px;
+    }
+
+    .nav-search form .searchbutton {
+        width: 20%;
+        padding-right: 0;
+    }
+
+    header .header-main .button-cart.button-responsive {
+        display: inline-block;
+        float: right;
+        margin-right: 13px;
+        line-height: 65px;
+    }
+
+    .homepage-03 .nav-search {
+        bottom: -20px;
+    }
+
+    .edugate-navbar {
+        background-color: #2aacff;
+        cursor: pointer;
+        margin-top: 16px;
+    }
+
+        .edugate-navbar .icon-bar {
+            background-color: #fff;
+        }
+
+    .slider-banner .slider-item {
+        height: 568px;
+    }
+
+        .slider-banner .slider-item .slider-caption {
+            text-align: center;
+        }
+
+    .slider-banner-03 .container {
+        min-height: 568px;
+    }
+
+    .progress-bars {
+        position: relative;
+        padding-bottom: 160px;
+    }
+
+        .progress-bars .container {
+            width: 100%;
+        }
+
+        .progress-bars .group-button {
+            margin: 0;
+        }
+
+        .progress-bars .progress-bar-wrapper .group-btn-slider {
+            display: block;
+            position: relative;
+            top: 80px;
+        }
+
+    .edugate-layout-2:before {
+        width: 80%;
+    }
+
+    .shw-shortcode.feature .why-choose-us-wrapper-top .why-choose-us-wrapper {
+        padding-right: 35%;
+    }
+
+    .shw-shortcode.feature .why-choose-us-wrapper-top .background-girl-1 {
+        width: 30%;
+        left: 65%;
+    }
+
+    .shw-shortcode.feature .why-choose-us-wrapper .customs-row {
+        display: block;
+    }
+
+    .slider-talk-about-us .peopel-item .peopel-comment {
+        width: 90%;
+    }
+
+    .top-courses .top-courses-slider {
+        margin-bottom: 0;
+    }
+
+    .top-courses .group-btn-top-courses-slider {
+        margin-top: 30px;
+    }
+
+    .search-input {
+        height: 200px;
+        background-repeat: repeat;
+    }
+
+        .search-input .form-select,
+        .search-input .form-submit {
+            width: 22%;
+        }
+
+        .search-input .form-input {
+            width: 52% !important;
+            margin-right: 0;
+        }
+
+        .search-input .form-submit {
+            width: 160px;
+            text-align: center;
+            margin: 0 auto;
+            margin-top: 10px;
+            display: block;
+            float: none;
+        }
+
+        .search-input .search-input-wrapper {
+            padding: 45px 0;
+        }
+    /*********************/
+    /*   PAGE CATRGORY   */
+    /*********************/
+    .edugate-layout-3 {
+        min-height: auto;
+        margin-top: 60px;
+    }
+
+        .edugate-layout-3 .edugate-layout-3-wrapper {
+            top: 0;
+            padding: 15px;
+            display: block;
+        }
+
+            .edugate-layout-3 .edugate-layout-3-wrapper .edugate-image {
+                display: table-cell;
+                vertical-align: top;
+                width: 45%;
+            }
+
+            .edugate-layout-3 .edugate-layout-3-wrapper .edugate-content {
+                display: table-cell;
+                vertical-align: top;
+                padding: 0 0 0 30px;
+            }
+
+        .edugate-layout-3 button {
+            position: absolute;
+            bottom: 30px;
+            right: 30px;
+        }
+
+    .list-categories .result-output {
+        margin-bottom: 0;
+    }
+    /**********************************/
+    .edu-ab .edu-ab-content ul li .circle-icon {
+        height: 90px;
+        width: 90px;
+    }
+
+        .edu-ab .edu-ab-content ul li .circle-icon i {
+            line-height: 90px;
+        }
+
+    .register-table .register-title {
+        font-size: 20px;
+    }
+
+    .footer-main .footer-main-wrapper {
+        padding: 50px 0 0px 0;
+    }
+
+    .footer-main .hyperlink {
+        line-height: 45px;
+        min-height: 45px;
+    }
+
+    .courses-detail {
+        padding-bottom: 70px;
+    }
+
+    .sidebar .widget:nth-last-child(-n + 3) {
+        margin-bottom: 0;
+    }
+
+    .layout-left {
+        float: none;
+    }
+
+    .layout-right {
+        float: none;
+    }
+
+    .dropdown-focus {
+        display: block;
+        position: static;
+        float: none;
+        width: auto;
+        margin-top: 0;
+        background-color: transparent;
+        border: 0;
+        -webkit-box-shadow: none;
+        box-shadow: none;
+    }
+
+    .sw-sm_text_left {
+        text-align: left;
+    }
+    /* Event Page */
+    .count-down-wrapper .clock-count-down {
+        margin-bottom: 20px;
+    }
+
+        .count-down-wrapper .clock-count-down .col-sm-3 {
+            margin-bottom: 30px;
+        }
+
+    .gallery-page.gallery-mansonry .grid-item, .gallery-page.gallery-3column .grid-item {
+        width: 45.5%;
+        height: 225px;
+    }
+
+    .gallery-page.gallery-mansonry .grid-item-height2, .gallery-page.gallery-3column .grid-item-height2 {
+        height: 480px;
+    }
+
+    .sidebar {
+        margin-top: 50px;
+    }
+}
+/*********************************/
+/*          SCREEN 600           */
+/*********************************/
+@media screen and (max-width: 600px) {
+    header .header-topbar .group-sign-in {
+        margin-left: 0;
+    }
+
+    .nav-search form input[type='text'] {
+        width: 79%;
+    }
+
+    .nav-search form .searchbutton {
+        width: 15%;
+        padding-right: 0;
+    }
+
+    header .header-main .button-cart.button-responsive {
+        line-height: 35px;
+        margin-top: 5px;
+    }
+
+    .slider-item .slider-caption .text-info-1 {
+        font-size: 46px;
+        margin-bottom: 5px;
+    }
+
+    .slider-item .slider-caption .text-info-2 {
+        font-size: 26px;
+        margin-bottom: 5px;
+    }
+
+    .slider-item .slider-caption .btn p {
+        font-size: 18px;
+        line-height: 40px;
+    }
+
+    .slider-banner-02 .slider-banner-wrapper .sub-title,
+    .slider-banner-03 .slider-banner-wrapper .sub-title {
+        font-size: 24px;
+        margin-bottom: 20px;
+    }
+
+    .slider-banner-02 .slider-banner-wrapper .main-title,
+    .slider-banner-03 .slider-banner-wrapper .main-title {
+        font-size: 60px;
+        margin-bottom: 40px;
+    }
+    /* .section-padding {
+    padding: 60px 0;
+  } */
+    .picture-gallery .gallery-content .grid-item {
+        width: 50%;
+    }
+
+    .choose-course .name-course {
+        margin-top: 15px;
+    }
+
+    .choose-course .choose-course-wrapper .col-md-4.col-xs-6 {
+        margin-bottom: 40px;
+    }
+
+        .choose-course .choose-course-wrapper .col-md-4.col-xs-6:nth-last-child(-n+3) {
+            margin-bottom: 40px;
+        }
+
+        .choose-course .choose-course-wrapper .col-md-4.col-xs-6:nth-last-child(-n+2) {
+            margin-bottom: 0;
+        }
+
+    .choose-course-3 .item-course-wrapper .icon-course {
+        display: block;
+        width: 100%;
+        padding: 0;
+        text-align: center;
+    }
+
+        .choose-course-3 .item-course-wrapper .icon-course:after {
+            display: none;
+        }
+
+    .choose-course-3 .item-course-wrapper .info-course {
+        display: block;
+        width: 100%;
+        padding: 0;
+        text-align: center;
+        padding-top: 15px;
+    }
+
+    .choose-course-3 .item-course {
+        height: 300px;
+    }
+
+    .pricing {
+        padding-bottom: 90px;
+    }
+
+        .pricing .pricing-wrapper .pricing-widget {
+            padding-top: 0;
+        }
+
+    .best-staff {
+        padding-bottom: 0px;
+    }
+
+    .progress-bars {
+        padding-bottom: 120px;
+    }
+
+    .picture-gallery {
+        padding-bottom: 0;
+    }
+
+    .footer-top .footer-top-wrapper .footer-top-left .footer-top-focus {
+        font-size: 24px;
+        line-height: 30px;
+    }
+
+    .edugate-tabs {
+        margin-bottom: 20px;
+    }
+
+        .edugate-tabs li {
+            height: 60px;
+        }
+
+    .courses .top-content {
+        margin-bottom: 20px;
+    }
+
+    .gallery-page.gallery-mansonry .grid-item,
+    .gallery-page.gallery-3column .grid-item,
+    .gallery-page.gallery-4column .grid-item {
+        width: 50%;
+    }
+
+    .slider-talk-about-us .slider-talk-about-us-wrapper {
+        padding: 60px 0;
+    }
+
+    .slider-talk-about-us .group-btn-slider {
+        top: 20px;
+    }
+    /*********************/
+    /*   PAGE CATEGORY   */
+    /*********************/
+    .edugate-layout-3 .edugate-content button {
+        position: relative;
+        bottom: auto;
+        right: auto;
+        margin-top: 20px;
+        margin-right: 0;
+    }
+
+    .underline {
+        margin-bottom: 35px;
+    }
+    /*********************/
+    /*   course detail   */
+    /*********************/
+    .course-title {
+        font-size: 28px;
+    }
+
+    .news-list {
+        margin-bottom: 30px;
+    }
+
+        .news-list .list-expand-title {
+            margin-bottom: 20px;
+        }
+
+    .news-content {
+        margin-bottom: 60px;
+    }
+
+    .news-author {
+        margin-bottom: 60px;
+    }
+
+    .news-comment {
+        margin-bottom: 60px;
+    }
+    /****************************/
+    .intro-edu {
+        padding: 60px 0;
+    }
+
+    .rlp-table {
+        padding: 30px 30px;
+    }
+
+    .sidebar {
+        margin-top: 50px;
+    }
+
+    /* Profile Teacher */
+    .profile-teacher .profile-teacher-wrapper .teacher-info .staff-item {
+        width: 220px;
+    }
+
+        .profile-teacher .profile-teacher-wrapper .teacher-info .staff-item .staff-item-wrapper {
+            height: 210px;
+        }
+
+    .profile-teacher .profile-teacher-wrapper .teacher-info .teacher-des .title {
+        margin-bottom: 25px;
+    }
+
+    .profile-teacher .profile-teacher-wrapper .teacher-info .teacher-des .content .content-detail {
+        margin-bottom: 20px;
+    }
+
+    .profile-teacher .profile-teacher-wrapper .teacher-info {
+        display: inline-block;
+        text-align: center;
+    }
+
+        .profile-teacher .profile-teacher-wrapper .teacher-info .staff-item2 {
+            width: 270px;
+            padding: 30px 30px 45px;
+            margin-bottom: 20px;
+            display: inline-block;
+        }
+
+        .profile-teacher .profile-teacher-wrapper .teacher-info .teacher-des {
+            display: inline-block;
+            vertical-align: middle;
+            padding: 0;
+            text-align: left;
+        }
+
+            .profile-teacher .profile-teacher-wrapper .teacher-info .teacher-des .title {
+                margin-bottom: 5px;
+            }
+
+    .edugate-layout-3 .edugate-layout-3-wrapper .edugate-video, .edugate-layout-3 .edugate-layout-3-wrapper .edugate-audio {
+        min-width: 210px;
+    }
+    /* FAQ */
+    .accordion .panel-heading .panel-title a {
+        text-overflow: ellipsis;
+        white-space: nowrap;
+        overflow: hidden;
+        width: 100%;
+        padding-right: 70px;
+    }
+    /* Gallery */
+    .gallery-page.gallery-mansonry .grid-item-height2 {
+        height: 465px;
+    }
+}
+/*********************************/
+/*          SCREEN 480           */
+/*********************************/
+@media screen and (max-width: 480px) {
+    header .header-main .edugate-navbar {
+        margin: 6px 0 0 0;
+    }
+
+    .news-content img {
+        width: 100%;
+    }
+
+    .choose-course .icon-circle {
+        width: 140px;
+        height: 140px;
+    }
+
+        .choose-course .icon-circle .icon-background {
+            width: 116px;
+            height: 116px;
+            margin-left: -58px;
+        }
+
+            .choose-course .icon-circle .icon-background .icons-img {
+                font-size: 58px;
+            }
+
+    .progress-bars .title-2 {
+        font-size: 24px;
+        line-height: 34px;
+    }
+
+    .why-choose-us .why-choose-us-wrapper-top .why-choose-us-wrapper {
+        padding-right: 0;
+    }
+
+    .why-choose-us .why-choose-us-wrapper-top .background-girl-1 {
+        display: none;
+    }
+
+    .why-choose-us .why-choose-us-wrapper-bottom .why-choose-us-wrapper {
+        padding: 20px 0;
+    }
+
+    .why-choose-us .why-choose-us-wrapper-bottom .section-icon {
+        width: 100%;
+        margin: 15px 0;
+        padding: 0;
+    }
+
+        .why-choose-us .why-choose-us-wrapper-bottom .section-icon i {
+            width: 50px;
+        }
+
+    .slider-talk-about-us .peopel-item .peopel-comment {
+        width: 100%;
+    }
+
+    .staff-item {
+        padding: 10px 5px;
+    }
+
+        .staff-item .staff-item-wrapper {
+            padding: 0 15px;
+            height: 190px;
+        }
+
+    .edugate-layout-2:before {
+        width: 100%;
+    }
+
+    .courses .style-list .col-style .edugate-layout-2:before {
+        width: 100%;
+    }
+
+    .edugate-layout-2 .edugate-layout-2-wrapper {
+        padding: 30px;
+    }
+
+        .edugate-layout-2 .edugate-layout-2-wrapper .edugate-content {
+            display: block;
+            padding: 0;
+            width: 100%;
+            margin-bottom: 30px;
+        }
+
+        .edugate-layout-2 .edugate-layout-2-wrapper .edugate-image {
+            width: 100%;
+            height: auto;
+            display: block;
+        }
+
+    .edugate-layout-2 .edugate-content a.btn {
+        position: inherit;
+        left: auto;
+        margin-left: auto;
+        bottom: auto;
+        float: right;
+        margin-bottom: 30px;
+        margin-top: 10px;
+    }
+
+    .group-title-index {
+        margin-bottom: 5px;
+    }
+
+    .pricing {
+        padding-bottom: 80px;
+    }
+
+        .pricing .group-title-index {
+            margin-bottom: 10px;
+        }
+
+    .edugate-layout-1 {
+        margin-top: 40px;
+    }
+
+        .edugate-layout-1 .edugate-image {
+            display: block;
+            width: 100%;
+            padding: 30px;
+            top: 0;
+        }
+
+        .edugate-layout-1 .edugate-content {
+            width: 100%;
+            display: block;
+            padding: 0 30px 30px;
+        }
+
+            .edugate-layout-1 .edugate-content .btn {
+                position: relative;
+                margin-left: 30px;
+                margin-top: 20px;
+                bottom: 0;
+            }
+
+            .edugate-layout-1 .edugate-content button {
+                margin-bottom: 30px;
+                margin-top: 10px;
+            }
+
+    .col-md-9 .edugate-layout-1 .edugate-image {
+        width: 100%;
+        top: 0;
+    }
+
+    .col-md-9 .edugate-layout-1 .edugate-content {
+        padding: 0 30px;
+    }
+
+    .news-page .news-page-wrapper .edugate-layout-1 {
+        margin-bottom: 40px;
+    }
+
+    .slider-banner-02 .slider-banner-wrapper .sub-title,
+    .slider-banner-03 .slider-banner-wrapper .sub-title {
+        font-size: 20px;
+        margin-bottom: 15px;
+    }
+
+    .slider-banner-02 .slider-banner-wrapper .main-title,
+    .slider-banner-03 .slider-banner-wrapper .main-title {
+        font-size: 40px;
+        margin-bottom: 30px;
+    }
+
+    .choose-course-2 .col-md-4.col-xs-6 :nth-child(2n - 1) {
+        /*padding-right: 8px;*/
+    }
+
+    .choose-course-2 .col-md-4.col-xs-6 :nth-child(2n) {
+        padding-left: 7px;
+    }
+
+    .choose-course-2 .item-course {
+        padding: 55px 0;
+    }
+
+        .choose-course-2 .item-course .info-course {
+            margin-top: 10px;
+            padding: 0 10px;
+        }
+
+            .choose-course-2 .item-course .info-course .name-course {
+                font-size: 20px;
+                margin-bottom: 5px;
+            }
+
+        .choose-course-2 .item-course .hover-text .wrapper-hover-content {
+            padding: 10px;
+        }
+
+    .choose-course-3 .item-course {
+        height: auto;
+    }
+
+    .courses .style-grid .col-style {
+        margin-bottom: 40px;
+    }
+
+    .courses .style-grid:last-child .col-style {
+        margin-bottom: 40px;
+    }
+
+        .courses .style-grid:last-child .col-style:last-child {
+            margin-bottom: 0;
+        }
+
+    .top-courses .top-courses-item {
+        padding: 20px 0;
+    }
+
+    .courses .group-title-index {
+        margin-bottom: 60px;
+    }
+
+    .search-input {
+        height: auto;
+    }
+
+        .search-input .form-select,
+        .search-input .form-submit {
+            width: 48.5%;
+            margin-bottom: 10px;
+        }
+
+            .search-input .form-select.style-2,
+            .search-input .form-submit.style-2 {
+                margin-right: 0;
+            }
+
+        .search-input .form-input {
+            width: 100% !important;
+            margin-right: 0;
+        }
+
+        .search-input .form-submit {
+            width: 160px;
+            text-align: center;
+            margin: 0 auto;
+            margin-top: 10px;
+            display: block;
+            float: none;
+        }
+
+        .search-input .search-input-wrapper {
+            padding: 15px 0;
+        }
+    /*********************/
+    /*      PAGE 404     */
+    /*********************/
+    .wrapper-404 .title-404 .warning {
+        font-size: 160px;
+    }
+
+    .wrapper-404 .title-404 .btn-404 {
+        width: 160px;
+        height: 40px;
+        font-size: 18px;
+    }
+
+        .wrapper-404 .title-404 .btn-404 p {
+            font-size: 18px;
+        }
+    /*********************/
+    /*   PAGE CATRGORY   */
+    /*********************/
+    .edugate-layout-3 .edugate-layout-3-wrapper .edugate-image {
+        display: block;
+        width: 100%;
+        margin-bottom: 30px;
+    }
+
+    .edugate-layout-3 .edugate-layout-3-wrapper .edugate-content {
+        display: block;
+        vertical-align: top;
+        padding: 0;
+        width: 100%;
+    }
+
+    .edugate-layout-3 button {
+        position: absolute;
+        bottom: 30px;
+        right: 30px;
+    }
+    /*********************/
+    /*   PAGE CATRGORY   */
+    /*********************/
+    .underline {
+        margin-bottom: 25px;
+    }
+    /*********************/
+    /*   course detail   */
+    /*********************/
+    blockquote {
+        padding-left: 40px;
+        margin: 20px 20px 10px 20px;
+    }
+
+    .course-des {
+        margin-bottom: 30px;
+    }
+
+    .news-content {
+        margin-bottom: 40px;
+    }
+
+    .news-author {
+        margin-bottom: 40px;
+    }
+
+    .news-comment {
+        margin-bottom: 40px;
+    }
+
+    .btn-submit {
+        line-height: 25px;
+    }
+
+        .btn-submit p {
+            font-size: 12px;
+        }
+    /****************************/
+    .socials a {
+        margin-right: 6px;
+    }
+
+    .edu-ab .edu-ab-content ul li {
+        width: 280px;
+        display: block;
+        margin: 0 auto;
+        padding: 40px 0;
+    }
+
+        .edu-ab .edu-ab-content ul li:first-child {
+            padding-top: 20px;
+        }
+
+        .edu-ab .edu-ab-content ul li:last-child {
+            padding-bottom: 0;
+        }
+
+        .edu-ab .edu-ab-content ul li .circle-icon {
+            width: 100px;
+            height: 100px;
+            display: table-cell;
+        }
+
+            .edu-ab .edu-ab-content ul li .circle-icon:after {
+                width: 2px;
+                height: 50px;
+                top: auto;
+                margin-top: auto;
+                left: 50%;
+                margin-left: -1px;
+                bottom: -53px;
+            }
+
+            .edu-ab .edu-ab-content ul li .circle-icon:before {
+                width: 2px;
+                height: 50px;
+                margin-top: auto;
+                left: 50%;
+                margin-left: -1px;
+                top: -53px;
+            }
+
+            .edu-ab .edu-ab-content ul li .circle-icon i {
+                line-height: 100px;
+            }
+
+        .edu-ab .edu-ab-content ul li span {
+            width: 180px;
+            display: table-cell;
+            vertical-align: middle;
+            padding-left: 20px;
+            text-align: left;
+        }
+
+    .nav-subscribe-wrapper {
+        height: auto;
+        padding: 25px 0 30px 0;
+    }
+
+        .nav-subscribe-wrapper .nav-subscribe-left,
+        .nav-subscribe-wrapper .nav-subscribe-right {
+            display: table-row;
+            text-align: left;
+        }
+
+            .nav-subscribe-wrapper .nav-subscribe-left .subscribe-text {
+                padding: 0;
+                font-size: 24px;
+                margin-bottom: 12px;
+                line-height: 24px;
+            }
+
+    .group-title-index .center-title {
+        font-size: 16px;
+    }
+
+    .page-title {
+        height: 100px;
+    }
+
+    .rlp-table .rlp-title {
+        font-size: 20px;
+    }
+
+    .news-comment ul.comment-list-children {
+        margin-left: 50px;
+    }
+
+    .news-comment li .media-left {
+        padding-left: 0px;
+    }
+
+    .news-comment li .media-body {
+        padding-right: 0px;
+    }
+
+    .news-comment li .des p {
+        font-size: 13px;
+    }
+
+    .title-news {
+        font-size: 30px;
+    }
+
+    .news-content .news-image-block {
+        margin-right: 0px;
+        width: 100%;
+        margin-bottom: 40px;
+    }
+
+    .news-author {
+        height: auto;
+    }
+
+        .news-author .des p {
+            font-size: 13px;
+        }
+
+    .footer-main .footer-main-wrapper {
+        padding: 50px 0 0 0;
+    }
+
+    .vc_row .sw-col_sm_6 {
+        width: 100%;
+    }
+
+    .owl-carousel.owl-loaded {
+        margin: auto;
+    }
+
+    .section-icon i {
+        width: 40px;
+    }
+
+    .edugate-layout-2:hover:before {
+        background: #fafafa;
+        -webkit-box-shadow: none;
+        -moz-box-shadow: none;
+        box-shadow: none;
+    }
+
+    .pricing .pricing-widget:hover .pricing-header .price-cost,
+    .pricing .pricing-widget.active .pricing-header .price-cost .pricing .pricing-widget:hover .pricing-content,
+    .pricing .pricing-widget.active .pricing-content {
+        -webkit-transform: none;
+        -moz-transform: none;
+        transform: none;
+    }
+
+    .adminbar-on.sticky-enable .header-main.header-fixed,
+    .adminbar-on header .header-main.homepage-02.header-fixed,
+    .adminbar-on header .header-main.homepage-03.header-fixed,
+    .sticky-enable .header-main.header-fixed,
+    header .header-main.homepage-02.header-fixed,
+    header .header-main.homepage-03.header-fixed {
+        top: 0;
+    }
+    /* Profile teacher */
+    .profile-teacher .profile-teacher-wrapper .teacher-info .staff-item .staff-item-wrapper {
+        height: 180px;
+    }
+
+    .profile-teacher .profile-teacher-wrapper .teacher-info {
+        display: inline-block;
+        text-align: center;
+    }
+
+        .profile-teacher .profile-teacher-wrapper .teacher-info .staff-item2 {
+            width: 270px;
+            padding: 30px 30px 45px;
+            margin-bottom: 20px;
+            display: inline-block;
+        }
+
+        .profile-teacher .profile-teacher-wrapper .teacher-info .teacher-des {
+            display: inline-block;
+            vertical-align: middle;
+            padding: 0;
+            text-align: left;
+        }
+
+            .profile-teacher .profile-teacher-wrapper .teacher-info .teacher-des .title {
+                margin-bottom: 5px;
+            }
+
+    .edugate-video-player {
+        width: 360px;
+        height: 270px;
+        margin-bottom: 15px;
+    }
+
+    .edugate-audio-player {
+        width: 360px;
+        margin-bottom: 25px;
+    }
+
+    /* Event page */
+    .count-down-wrapper .clock-count-down {
+        padding-left: 15px;
+        padding-right: 15px;
+        width: 100%;
+    }
+
+    .slider-talk-about-us .carousel-indicators {
+        display: none;
+    }
+
+    .sidebar {
+        margin-top: 20px;
+    }
+    /* .section-padding {
+    padding: 40px 0;
+  } */
+    .table-body {
+        height: auto;
+    }
+
+    .content .team-grid .staff-item-column {
+        margin-top: 50px;
+        margin-bottom: 20px;
+    }
+
+    .latest-news-wrapper.shw-shortcode .edugate-layout-1:first-child {
+        margin-top: 40px;
+    }
+
+    .woocommerce ul.products li.product,
+    .woocommerce-page ul.products li.product,
+    .woocommerce-page[class*=columns-] ul.products li.product,
+    .woocommerce[class*=columns-] ul.products li.product {
+        width: 100%;
+    }
+
+    .sw-woocommerce .type-product .related {
+        margin-bottom: 100px;
+    }
+}
+
+@media screen and (max-width: 420px) {
+    .news-content img {
+        width: 100%;
+    }
+
+    header .header-topbar .email,
+    header .header-topbar .hotline {
+        display: inherit;
+        margin-right: 0;
+        line-height: 25px;
+    }
+}
+/*********************************/
+/*          SCREEN 380           */
+/*********************************/
+@media screen and (max-width: 414px) {
+    header .header-topbar.homepage-03 {
+        line-height: 50px;
+    }
+
+    .edugate-layout-3 .edugate-layout-3-wrapper .edugate-image img {
+        width: 100%;
+    }
+
+    .news-content img {
+        width: 100%;
+    }
+
+    .sd380 {
+        width: 100%;
+    }
+
+    .sidebar .widget:nth-last-child(-n + 3) {
+        margin-bottom: 30px;
+    }
+
+    .sidebar .widget:nth-last-child(-n + 2) {
+        margin-bottom: 0;
+    }
+
+    .edugate-layout-1 .edugate-content .btn {
+        margin-bottom: 20px;
+    }
+
+    .profile-teacher .profile-teacher-wrapper .teacher-info {
+        display: inline-block;
+        text-align: center;
+    }
+
+        .profile-teacher .profile-teacher-wrapper .teacher-info .staff-item2 {
+            width: 270px;
+            padding: 30px 30px 45px;
+            margin-bottom: 20px;
+            display: inline-block;
+        }
+
+        .profile-teacher .profile-teacher-wrapper .teacher-info .teacher-des {
+            display: inline-block;
+            vertical-align: middle;
+            padding: 0;
+            text-align: left;
+        }
+
+            .profile-teacher .profile-teacher-wrapper .teacher-info .teacher-des .title {
+                margin-bottom: 5px;
+            }
+
+    header .header-main .button-cart.button-responsive {
+        margin-top: 15px;
+    }
+
+    header .header-main.header-fixed .button-cart.button-responsive {
+        margin-top: 5px;
+    }
+}
+
+@media screen and (max-width: 380px) {
+
+    header .header-main .navigation {
+        width: 100%;
+        top: 45px;
+    }
+
+    header .header-main .logo {
+        line-height: 40px;
+    }
+
+        header .header-main .logo .header-logo img {
+            width: 125px;
+        }
+
+    header .header-main.header-fixed .logo {
+        line-height: 40px;
+    }
+
+        header .header-main.header-fixed .logo .header-logo img {
+            width: 125px;
+        }
+
+    header .header-main .edugate-navbar {
+        margin: 6px 0 0 0;
+    }
+
+    header .header-main.homepage-03 .logo {
+        width: 125px !important;
+        line-height: 40px;
+    }
+
+    .choose-course .name-course a,
+    .choose-course .name-course p,
+    .choose-course .name-course span {
+        font-size: 14px;
+    }
+
+    .choose-course .name-course i {
+        display: none;
+    }
+
+    .progress-bars .progress-bar-wrapper .inner {
+        font-size: 50px;
+        margin-bottom: 40px;
+    }
+
+    .progress-bars .progress-bar-wrapper .title-2 {
+        margin-bottom: 30px;
+    }
+
+    .choose-course-2 .choose-course-wrapper .col-md-4.col-xs-6:nth-last-child(-n+2) {
+        margin-bottom: 30px;
+    }
+
+    .choose-course-2 .choose-course-wrapper .col-md-4.col-xs-6:last-child {
+        margin-bottom: 0;
+    }
+
+    .group-button button:first-child {
+        margin-right: 0;
+        margin-bottom: 20px;
+    }
+
+    .edugate-tabs {
+        margin-bottom: 0px;
+    }
+
+    .slider-talk-about-us .peopel-item .peopel-comment {
+        height: 210px;
+        overflow: hidden;
+        text-align: center;
+    }
+
+    .edugate-content .title {
+        line-height: 28px;
+    }
+
+    .choose-course-2 .col-md-4.col-xs-6 {
+        width: 100%;
+        padding: 0 15px !important;
+    }
+
+    header .header-main.homepage-03 .navigation {
+        top: 45px;
+    }
+
+    .choose-course-3 .item-course {
+        width: 90%;
+        margin: 15px auto 0 15px;
+        border: 1px solid #e1e1e1 !important;
+    }
+
+    .search-input {
+        height: auto;
+        background-repeat: repeat;
+    }
+
+        .search-input .form-select,
+        .search-input .form-submit {
+            width: 100%;
+            margin-bottom: 10px;
+        }
+
+        .search-input .form-input {
+            width: 100% !important;
+            margin-right: 0;
+        }
+
+        .search-input .form-submit {
+            width: 160px;
+            text-align: center;
+            margin: 0 auto;
+            margin-top: 10px;
+            display: block;
+            float: none;
+        }
+
+        .search-input .search-input-wrapper {
+            padding: 15px 0;
+        }
+
+    .courses .group-title-index {
+        margin-bottom: 45px;
+    }
+
+    .top-content .result-output .result-count {
+        display: none;
+    }
+
+    .pagination .btn-squae {
+        width: 32px;
+        height: 32px;
+        line-height: 32px;
+    }
+
+    .pagination .pagination__list li .pagination__previous,
+    .pagination .pagination__list li .pagination__next {
+        line-height: 27px;
+    }
+    /*********************/
+    /*   PAGE CATRGORY   */
+    /*********************/
+    .edugate-layout-3 {
+        margin-top: 40px;
+    }
+
+        .edugate-layout-3.news-grid {
+            margin-bottom: 40px;
+        }
+
+    .list-categories {
+        padding-top: 0px;
+    }
+    /*********************/
+    /*   course detail   */
+    /*********************/
+    .news-list .col-xs-6 {
+        width: 100%;
+    }
+
+    .course-title {
+        font-size: 24px;
+    }
+
+    .course-info {
+        margin-bottom: 30px;
+    }
+
+    .courses-detail {
+        padding-bottom: 20px;
+    }
+
+    .page-title .captions {
+        font-size: 24px;
+        line-height: 34px;
+    }
+
+    .news-comment li .list-item {
+        padding: 20px 15px;
+    }
+    /****************************/
+    .sd380 {
+        width: 100%;
+    }
+
+    .rlp-table {
+        padding: 20px;
+    }
+
+        .rlp-table img.login {
+            width: 180px;
+            margin-bottom: 10px;
+        }
+
+        .rlp-table .rlp-title {
+            font-size: 16px;
+        }
+
+    .col-2 {
+        margin-bottom: 0;
+    }
+
+    .register-table .register-title {
+        margin-top: 20px;
+    }
+
+    .news-comment ul.comment-list-children {
+        margin-left: 25px;
+    }
+
+    .news-comment li .media-left {
+        padding-right: 5px;
+    }
+
+    .news-comment li .media-body {
+        padding-left: 5px;
+    }
+
+    .title-news {
+        font-size: 24px;
+        line-height: 26px;
+        margin-bottom: 10px;
+        display: inline-block;
+    }
+
+    .news-content {
+        margin-top: 30px;
+    }
+
+        .news-content .news-des p {
+            margin-bottom: 30px;
+            font-size: 14px;
+        }
+
+    .news-detail .info a,
+    .news-detail .info span {
+        font-size: 13px;
+    }
+
+    .news-author .author a {
+        font-size: 16px;
+    }
+
+    .news-author .position {
+        font-size: 13px;
+    }
+
+    .media .media-right span {
+        font-size: 12px !important;
+    }
+
+    .news-content .news-des p {
+        font-size: 16px;
+    }
+
+    .footer-main .footer-main-wrapper {
+        padding: 50px 0 0 0;
+    }
+
+    .adminbar-on.sticky-enable .header-main.header-fixed,
+    .adminbar-on header .header-main.homepage-02.header-fixed,
+    .adminbar-on header .header-main.homepage-03.header-fixed {
+        top: 0;
+    }
+
+    header .header-main.homepage-03 .header-main-wrapper {
+        height: 50px;
+    }
+
+    .course-video .video-btn a.next-course {
+        margin-bottom: 10px;
+    }
+
+    .profile-teacher .profile-teacher-wrapper .teacher-info {
+        display: inline-block;
+        text-align: center;
+    }
+
+        .profile-teacher .profile-teacher-wrapper .teacher-info .staff-item2 {
+            width: 270px;
+            padding: 30px 30px 45px;
+            margin-bottom: 20px;
+            display: inline-block;
+        }
+
+        .profile-teacher .profile-teacher-wrapper .teacher-info .teacher-des {
+            display: inline-block;
+            vertical-align: middle;
+            padding: 0;
+            text-align: left;
+        }
+
+            .profile-teacher .profile-teacher-wrapper .teacher-info .teacher-des .title {
+                margin-bottom: 5px;
+            }
+    /* Gallery */
+    .gallery-page.gallery-mansonry .grid-item,
+    .gallery-page.gallery-3column .grid-item,
+    .gallery-page.gallery-4column .grid-item {
+        width: 100%;
+        margin: 15px 0;
+    }
+    /* News */
+    .news-page .news-masonry .grid-item {
+        width: 100%;
+    }
+
+    header .header-main .button-cart.button-responsive {
+        margin-top: 5px;
+    }
+}
+/*********************************/
+/*          SCREEN 320           */
+/*********************************/
+@media screen and (max-width: 320px) {
+
+    .edugate-layout-3 .edugate-layout-3-wrapper .edugate-image img {
+        width: 100%;
+    }
+
+    .group-title-index .center-title {
+        margin-bottom: 5px;
+    }
+
+    .choose-course .icon-circle {
+        width: 120px;
+        height: 120px;
+    }
+
+        .choose-course .icon-circle .icon-background {
+            width: 104px;
+            height: 104px;
+            margin-left: -52px;
+            top: 8px;
+        }
+
+            .choose-course .icon-circle .icon-background .icons-img {
+                font-size: 52px;
+            }
+
+        .choose-course .icon-circle .info .info-back:before {
+            border: 6px solid #2aacff;
+        }
+
+    .edugate-layout-2 .edugate-layout-2-wrapper {
+        padding: 20px;
+    }
+
+    .edugate-layout-3 .edugate-layout-3-wrapper .edugate-image img {
+        width: 100% !important;
+    }
+
+    .top-courses .group-btn-top-courses-slider {
+        margin-top: 15px;
+    }
+
+    .edugate-layout-1 .edugate-image {
+        padding: 20px;
+    }
+
+    .edugate-layout-1 .edugate-content {
+        padding: 0 20px 20px;
+    }
+
+        .edugate-layout-1 .edugate-content button {
+            margin-bottom: 20px;
+        }
+
+    .col-md-9 .edugate-layout-1 .edugate-content {
+        padding: 0 20px;
+    }
+
+    .picture-gallery .gallery-content .grid-item {
+        width: 90%;
+        margin: auto 15px 15px;
+    }
+    /*********************/
+    /*   PAGE CATRGORY   */
+    /*********************/
+    .edugate-layout-3 .edugate-layout-3-wrapper {
+        padding: 20px;
+    }
+
+        .edugate-layout-3 .edugate-layout-3-wrapper .edugate-image {
+            margin-bottom: 20px;
+        }
+
+    .page-title .captions {
+        font-size: 28px;
+    }
+
+    .course-video .video-btn button.video-btn-right {
+        margin-bottom: 10px;
+    }
+    /***************************/
+    .footer-top-wrapper .footer-top-left .footer-top-focus {
+        font-size: 23px;
+    }
+
+    .rlp-table {
+        padding: 20px;
+    }
+
+        .rlp-table img.login {
+            width: 160px;
+            margin-bottom: 0px;
+        }
+
+    .title-news {
+        font-size: 24px;
+    }
+
+    .news-detail .info a,
+    .news-detail .info span {
+        font-size: 13px;
+    }
+
+    .news-content .news-des p {
+        font-size: 14px;
+    }
+
+    blockquote .main-quote {
+        font-size: 20px;
+        margin-bottom: 5px;
+    }
+
+    blockquote .sub-quote {
+        font-size: 14px;
+    }
+
+    .footer-main .hyperlink .hyper-left {
+        display: none;
+    }
+
+    p.stars a.star-1,
+    p.stars a.star-2,
+    p.stars a.star-3,
+    p.stars a.star-4,
+    p.stars a.star-5 {
+        margin-right: 0.5em;
+    }
+
+    p.stars a.star-1 {
+        width: 1.5em;
+    }
+
+    p.stars a.star-2 {
+        width: 2.5em;
+    }
+
+    p.stars a.star-3 {
+        width: 3.5em;
+    }
+
+    p.stars a.star-4 {
+        width: 4.5em;
+    }
+
+    p.stars a.star-5 {
+        width: 5.5em;
+    }
+
+    .profile-teacher .profile-teacher-wrapper .teacher-info .staff-item .staff-item-wrapper {
+        height: 90px;
+    }
+
+    .profile-teacher .profile-teacher-wrapper .teacher-info .staff-item .staff-info .staff-name {
+        font-size: 9px;
+    }
+
+    .profile-teacher .profile-teacher-wrapper .teacher-info .staff-item .staff-socials a {
+        margin-right: 9px;
+        width: 20px;
+        height: 20px;
+        line-height: 20px;
+    }
+
+    .profile-teacher .profile-teacher-wrapper .teacher-info {
+        display: inline-block;
+        text-align: center;
+    }
+
+        .profile-teacher .profile-teacher-wrapper .teacher-info .staff-item2 {
+            width: 270px;
+            padding: 30px 30px 45px;
+            margin-bottom: 20px;
+            display: inline-block;
+        }
+
+        .profile-teacher .profile-teacher-wrapper .teacher-info .teacher-des {
+            display: inline-block;
+            vertical-align: middle;
+            padding: 0;
+            text-align: left;
+        }
+
+            .profile-teacher .profile-teacher-wrapper .teacher-info .teacher-des .title {
+                margin-bottom: 5px;
+            }
+
+    .edugate-layout-3 .edugate-layout-3-wrapper .edugate-image .news-gird-slider {
+        width: 215px;
+    }
+}
